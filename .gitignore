@@ -1,5 +1,13 @@
+# Build artifacts
 bin/
 build/
-models/*.gguf
-lib/llama.cpp/build/
 *.o
+*.a
+neuroix_test
+sanity_test
+
+# Models (Too big for git)
+models/*.gguf
+
+# Llama.cpp build artifacts (kita tidak mau upload hasil compile library)
+lib/llama.cpp/build/
