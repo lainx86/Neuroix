@@ -1,0 +1,5 @@
+bin/
+build/
+models/*.gguf
+lib/llama.cpp/build/
+*.o
